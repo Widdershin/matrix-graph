@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  background: #112;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.hello-world {
+  color: rebeccapurple;
+}
+
+svg {
+  background: #112;
+
+  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.inputs {
+  position: absolute;
+  z-index: 1;
+
+  top: 1em;
+  left: 1em;
+  background: #DDD;
+  padding: 0.3em;
+}
+
+.inputs input {
+  width: 2em;
+  text-align: center;
+}
+
+
